@@ -1,0 +1,8 @@
+requests
+bs4
+regex
+typing
+time
+telegram
+python-telegram-bot
+pandas
