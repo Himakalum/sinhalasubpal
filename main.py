@@ -19,7 +19,6 @@ from telegram.ext import (
     CallbackContext,
     CallbackQueryHandler
 )
-import urllib3
 
 # Enable logging
 logging.basicConfig(
