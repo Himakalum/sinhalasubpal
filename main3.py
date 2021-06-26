@@ -413,7 +413,7 @@ def link_uploader(update: Update, _: CallbackContext) -> None:
                 
                             reply_markup = InlineKeyboardMarkup(keyboard)
                 
-                            update.message.reply_text(bb.text, reply_markup=reply_markup)
+                            update.message.reply_text(bb, reply_markup=reply_markup)
 
                 update.message.reply_text("successfully uploaded !")
             except Exception as e:
